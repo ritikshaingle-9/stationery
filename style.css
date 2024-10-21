@@ -1,5 +1,5 @@
 body{
-    background-color:#e0ebeb;
+    background-color:#8ABFA3;
 }
 .heading{
     text-align: center;
@@ -17,9 +17,9 @@ body{
     margin: 30px auto;
     display: block;
     justify-content: space-evenly;
-    border: 5px double #3c5d5d;
-    background-color:#83afaf;
-    border-radius: 20px;
+    border: 5px double #664900;
+    background-color:#FFE6A5;
+    border-radius: 20px 20px 0 0;
 
 }
 .product-img{
@@ -29,4 +29,21 @@ body{
     display: block;
     margin: 30px auto;
     width: fit-content;
+}
+.details{
+    height: 200px;
+    width: 400px;
+    margin-left: -5px;
+    border-radius: 0 0 20px 20px;
+    background-color:#FFE6A5;
+    border: 5px double #664900;
+
+}
+.product-name{
+    font-size: 30px;
+    text-align: center;
+}
+.price{
+    text-align: center;
+    font-size: 25px;
 }
