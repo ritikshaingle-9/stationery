@@ -1,4 +1,4 @@
-const quantElement= document.getElementById(quantity);
+const quantElement= document.getElementById(`quantity`);
  function inc()
  {
     let quantity= parseInt(quantElement.innerText);
@@ -7,5 +7,6 @@ const quantElement= document.getElementById(quantity);
  function dec()
  {
     let quantity=parseInt(quantElement.innerText);
+    if(quantity > 1)
     quantElement.innerText= --quantity;
  }
