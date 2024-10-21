@@ -31,7 +31,7 @@ body{
     width: fit-content;
 }
 .details{
-    height: 210px;
+    height: 280px;
     width: 400px;
     margin-left: -5px;
     border-radius: 0 0 20px 20px;
@@ -63,4 +63,19 @@ body{
 .num{
    font-size: 35px;
    margin: auto 10px;
+}
+.buy{
+    display:block;
+    font-size: 20px;
+    align-items: center;
+    margin:20px auto ;
+    border-radius: 50px;
+    width: 150px;
+    height: 40px;
+    background-color:#ffb700;
+    border: none;
+    cursor: pointer;
+}
+.buy:hover{
+    box-shadow:7px 9px 12px #4d3800;
 }
